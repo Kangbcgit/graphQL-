@@ -5,7 +5,7 @@ const client = new ApolloClient({
   cache: new InMemoryCache(), // 준 필수적인 .. 나중에 다룰 것
 });
 
-// client.query({ //test code (successfully result)
+// client.query({ // 클라이언트&서버 테스트 코드
 //   query: gql`
 //   {
 //     allMovies {

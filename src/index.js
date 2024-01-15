@@ -4,11 +4,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
 import client from './apolloClient';
+import { ApolloProvider } from '@apollo/client';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App/>
+    <ApolloProvider client={client}>
+      <App/>
+    </ApolloProvider>
   </React.StrictMode>
 );
 
