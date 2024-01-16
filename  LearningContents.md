@@ -4,3 +4,4 @@
 useQuery hook
 선언형(declarative) 코드는 원하는 것을 설명하기 위한 것만 작성하는 코드 작성 방법.
 명령형(imperative) 코드는 모든 단계의 코드를 작성.
+![Alt text](image.png)
